@@ -1,0 +1,7 @@
+insert customer 
+insert order
+insert measurement record
+
+
+create customer first; make phone number unique
+cy wont this processes make it more stressful for the tailor???
