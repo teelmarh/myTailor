@@ -1,4 +1,4 @@
- Here is a draft README.md file for a tailor management system Git repository based on your description:
+
 
 # Tailor Management System(myTailor)
 
