@@ -9,6 +9,8 @@ import Customers from "./pages/customers/index";
 import Createorder from "./pages/createOrder";
 import OrderSchedule from "./pages/orderSchedule/index";
 import Form2 from "./pages/createOrder/index2";
+import FAQ from "./pages/Support/index";
+import BarChart from "./pages/Bar/index";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -45,6 +47,14 @@ function App() {
               <Route
                 path="/create-order/form2"
                 element={<Form2/>}
+              />
+              <Route
+              path="/support"
+              element={<FAQ/>}
+              />
+              <Route
+              path="/chart"
+              element={<BarChart/>}
               />
             </Routes>
           </main>

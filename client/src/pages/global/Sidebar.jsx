@@ -204,7 +204,7 @@ const Sidebar = () => {
             />
             <Item
               title="Support"
-              to="/Support"
+              to="/support"
               icon={<HeadsetMicOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
